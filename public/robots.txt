@@ -1,0 +1,26 @@
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://trendwise.vercel.app/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 1
+
+# Allow all content to be crawled
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Disallow admin areas for general crawlers (but allow for authenticated access)
+User-agent: *
+Disallow: /admin/private/
